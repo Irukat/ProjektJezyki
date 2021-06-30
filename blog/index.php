@@ -75,7 +75,10 @@ if ($islogged) {
             <a class="nav-link" href="logowanie.php"><i class="bi bi-box-arrow-in-right"></i></i>Zaloguj</a>
           </li>
         </ul>
-
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="submit"><i class="bi bi-search"></i>Search</button>
+        </form>
       </div>
       </nav>
       </p>';
